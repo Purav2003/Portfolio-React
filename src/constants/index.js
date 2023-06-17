@@ -3,6 +3,7 @@ import {
     backend,
     creator,
     web,
+    data,
     javascript,
     typescript,
     html,
@@ -46,7 +47,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -54,8 +55,8 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Data Analyst",
+      icon: data,
     },
   ];
   
