@@ -4,6 +4,8 @@ import {About,Contact,Experience,Feedbacks,Hero,Navbar,Tech,Works,StarsCanvas} f
 function App() {
 
   return (
+    <div>
+
       <BrowserRouter>
         <div className="relative z-0 bg-primary">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -21,6 +23,7 @@ function App() {
           </div>
         </div>
       </BrowserRouter>
+      </div>
     )
 }
 
