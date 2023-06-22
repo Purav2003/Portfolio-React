@@ -14,7 +14,7 @@ const ServiceCard = ({index,title,icon}) =>{
               animate={{                
                 rotate:360,
               }}
-              transition={{duration:10,repeat:Infinity,repeatType:'loop'}}
+              transition={{duration:70,repeat:Infinity,repeatType:'loop'}}
              
             ><img src={icon} alt={title} className="w-16 h-16 object-contain"/></motion.dev>
           

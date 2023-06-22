@@ -24,11 +24,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import webmavens from "./company/webmavens.jpeg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import bootstrap from "./tech/bootstrap.jpg"
+import python from "./tech/python.png"
+import django from "./tech/django.svg"
+import java from "./tech/java.png"
+import mysql from "./tech/mysql.png"
+import r from "./tech/r.jpeg"
+import linux from "./tech/linux.jpeg"
 export {
   logo,
   backend,
@@ -58,5 +64,13 @@ export {
   tesla,
   carrent,
   jobit,
+  webmavens,
   tripguide,
+  bootstrap,
+  python,
+  django,
+  java,
+  mysql,
+  r,
+  linux
 };
