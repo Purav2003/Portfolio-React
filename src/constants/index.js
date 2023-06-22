@@ -87,6 +87,15 @@ import {
       icon: reactjs,
     },
     {
+      name: "Node JS",
+      icon: nodejs,
+    },
+
+    {
+      name: "mongodb",
+      icon: mongodb,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -98,11 +107,7 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },  
+    }, 
     {
       name: "bootstrap",
       icon: bootstrap,
@@ -126,11 +131,7 @@ import {
     {
       name: "mysql",
       icon: mysql,
-    },  
-    {
-      name: "linux",
-      icon: linux,
-    },  
+    }
   ];
   
   const experiences = [

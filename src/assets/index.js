@@ -30,7 +30,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import bootstrap from "./tech/bootstrap.jpg"
 import python from "./tech/python.png"
-import django from "./tech/django.svg"
+import django from "./tech/django.png"
 import java from "./tech/java.png"
 import mysql from "./tech/mysql.png"
 import r from "./tech/r.jpeg"
