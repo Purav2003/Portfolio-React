@@ -238,3 +238,30 @@ body{
 a:hover{
   cursor: none !important;
 }
+
+body:has(a:hover) .cursor2 {
+  width: 12px;
+  height: 12px;
+  transition: 0.3s;
+}
+
+body:has(a:hover) .cursor {
+  border: 2px solid #fff;
+  height: 65px;
+  width: 65px;
+}
+
+body:has(.work-card:hover) .cursor {
+  border: 2px solid #fff;
+  height: 55px;
+  width: 55px;
+}
+
+
+body:has(.work-card:hover) .cursor2 {
+  width: 12px;
+  background: #fff;
+  height: 12px;
+  transition: 0.3s;
+}
+

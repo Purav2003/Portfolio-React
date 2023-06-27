@@ -35,6 +35,14 @@ import java from "./tech/java.png"
 import mysql from "./tech/mysql.png"
 import r from "./tech/r.jpeg"
 import linux from "./tech/linux.jpeg"
+import link from "./link.png"
+import project_1 from "./project_1.png"
+import project_2 from "./project_2.png"
+import project_3 from "./project_3.png"
+import project_4 from "./project_4.png"
+import project_5 from "./project_5.png"
+import project_6 from "./project_6.jpeg"
+
 export {
   logo,
   backend,
@@ -72,5 +80,12 @@ export {
   java,
   mysql,
   r,
-  linux
+  linux,
+  project_1,
+  project_2,
+  project_3,
+  project_4,
+  project_5,
+  project_6,
+  link
 };
