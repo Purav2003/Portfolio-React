@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring",  0.5, 0.75)}>
+    <motion.div>
       <Tilt
         options={
           {
@@ -51,14 +51,13 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 
 const Works = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
+    <div>
+      <motion.div>
         <p className={style.sectionSubText}>My Work</p>
         <h2 className={style.sectionHeadText}>Projects.</h2>
       </motion.div>
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+        <motion.p          
           className="mt-3 text-secondary text-[17px] max-w-5xl leading-[30px]"
         >
           Following projects showcases my skills and experience through real-world examples of my work.
@@ -71,7 +70,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   )
 }
 
