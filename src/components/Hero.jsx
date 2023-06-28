@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div>
         <h1 className={`${style.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Purav </span> </h1>
-        <p className={`${style.heroSubText} mt-2 text-white-100`}>I'm a Web Developer. <br className="sm:block hidden"></br>I develop web-apps</p>
+        <p className={`${style.heroSubText} mt-2 text-white-100`}>I'm React developer and data analyst. <br className="sm:block hidden"></br>Icreating interfaces, analyzing data, and informing decisions.</p>
         </div>
 
       </div>
