@@ -197,7 +197,7 @@ const projects = [
     source_code_link: "https://github.com/Purav2003/Netflix-clone-react",
   },
   {
-    name: "Stock Exgange",
+    name: "Stock Exchange",
     description:
       "The project is a web application with live search, add to list, and stock description features made with ReactJS.",
     tags: [
