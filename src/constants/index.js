@@ -128,10 +128,28 @@ const technologies = [
     name: "django",
     icon: django,
   },
+  
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+
   {
     name: "r",
     icon: r,
-  }
+  },
+  {
+    name:"java",
+    icon: java,
+  },
+  {
+    name:"figma",
+    icon:figma,
+  },
+  {
+    name: "linux",
+    icon: linux,
+  },
 ];
 
 const experiences = [
