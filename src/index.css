@@ -284,5 +284,7 @@ body:has(.work-card:hover) .cursor2 {
   .cursor,.cursor2{
     height: 0px !important;
     width: 0px !important;
+    background: none !important;
+    border: none !important;
   }
 }
