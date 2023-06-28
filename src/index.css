@@ -265,3 +265,17 @@ body:has(.work-card:hover) .cursor2 {
   transition: 0.3s;
 }
 
+.hexagon{
+  background: #eee;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.hexagon img{
+ width: 80%;
+ mix-blend-mode:darken;
+ margin-left: 10px;
+ padding-top: 10px;
+
+}
