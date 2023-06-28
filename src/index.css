@@ -279,3 +279,10 @@ body:has(.work-card:hover) .cursor2 {
  padding-top: 10px;
 
 }
+
+@media screen and (max-width:850px) {
+  .cursor,.cursor2{
+    height: 0px !important;
+    width: 0px !important;
+  }
+}
