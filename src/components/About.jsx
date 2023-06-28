@@ -36,8 +36,8 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
         I'm a skilled software developer with experience in Frontend and Backend developement. 
-        In frontend developement, I have expertise in CSS, Javascript and frameworks like Tailwind CSS,React JS
-        ,Three.js. In backend developement, I have expertise in Advanced Java, django. I'm a quick learner and
+        In frontend developement, I have expertise in CSS, Javascript and frameworks like React JS
+        ,Three.js,Tailwind CSS. In backend developement, I have expertise in Advanced Java, django. I'm a quick learner and
          collabrate closely with clients to create efficient, scalable, and user-friendly solutions that solve 
          real-world problems.
       </motion.p>
