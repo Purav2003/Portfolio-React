@@ -265,6 +265,21 @@ body:has(.work-card:hover) .cursor2 {
   transition: 0.3s;
 }
 
+body:has(.button-submit:hover) .cursor {
+  border: 2px solid #fff;
+  height: 55px;
+  width: 55px;
+}
+
+
+body:has(.button-submit:hover) .cursor2 {
+  width: 12px;
+  background: #fff;
+  height: 12px;
+  transition: 0.3s;
+}
+
+
 .hexagon{
   background: #eee;
   border-radius: 50%;
@@ -287,4 +302,14 @@ body:has(.work-card:hover) .cursor2 {
     background: none !important;
     border: none !important;
   }
+}
+
+input:hover,textarea:hover,.form:hover,label:hover{
+  cursor: none !important;
+  transition: 0s !important;
+}
+
+
+*{
+  cursor: none !important;
 }

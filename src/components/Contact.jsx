@@ -7,6 +7,8 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import * as icons from 'react-icons/bi';
+import * as icon from 'react-icons/ai';
+import * as icons_a from 'react-icons/si';
 
 const Contact = () => {
   const formRef = useRef();
@@ -42,8 +44,17 @@ const Contact = () => {
       })
 
   }
+
+  function download(url) {
+    const a = document.createElement('a')
+    a.href = url
+    a.download = url.split('/').pop()
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+  }
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="form xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
 
       <motion.div
         variants={slideIn('left', 'tween', 0, 0.7)}
@@ -71,10 +82,13 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea rows="7" name="message" value={form.message} onChange={handleChange} placeholder="What do you want to say?" className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium" required />
           </label>
-          <button type="submit" className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">{loading ? 'Sending...' : 'Send'}</button>
-          <div className='flex flex-row gap-8 px-3'>
-            <a href="https://www.linkedin.com/in/purav308/"><icons.BiLogoLinkedin style={{ fontSize: '25px' }} /></a>
-            <a href="https://github.com/Purav2003"><icons.BiLogoGithub style={{ fontSize: '25px' }} /></a>
+          <button type="submit" className="bg-tertiary button-submit py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">{loading ? 'Sending...' : 'Send'}</button>
+          <div className='flex flex-row gap-4 px-3 icons-social'>
+            <a className="rounded-full p-3 bg-primary h-[50px] w-[50px] hover:bg-[#0A66C2]" href="https://www.linkedin.com/in/purav308/"><icons.BiLogoLinkedin style={{ fontSize: '25px' }} /></a>
+            <a className="rounded-full p-3 bg-primary h-[50px] w-[50px] hover:bg-[#171515]" href="https://github.com/Purav2003"><icons.BiLogoGithub style={{ fontSize: '25px' }} /></a>
+            <a className="rounded-full p-3 bg-primary h-[50px] w-[50px] hover:text-[#ec6a20] hover:bg-white" href="https://www.credly.com/users/purav-shah.75a00201/badges"><icons_a.SiCredly style={{ fontSize: '30px' }} /></a>
+            <a className="rounded-full p-3 bg-primary h-[50px] w-[50px]" role="button" title='Download Resume' target='_blank'
+            href='https://drive.google.com/file/d/1hHg03uP4nVtDRVcubA8Rf8TTHZL4bwIH/view?usp=sharing'><icon.AiOutlineDownload style={{ fontSize: '25px' }} /></a>
           </div>
         </form>
       </motion.div>
