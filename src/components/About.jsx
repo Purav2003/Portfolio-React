@@ -35,13 +35,13 @@ const About = () => {
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
-        I'm a skilled software developer with experience in Frontend and Backend developement. 
-        In frontend developement, I have expertise in CSS, Javascript and frameworks like React JS
-        ,Three.js,Tailwind CSS. In backend developement, I have expertise in Advanced Java, django. I'm a quick learner and
+        I'm a skilled software developer with experience in Frontend and Backend development. 
+        In frontend development, I have expertise in CSS, Javascript and frameworks like React JS
+        ,Three.js,Tailwind CSS. In backend development, I have expertise in django, nodeJs with knowledge of mySQL and MONOGO-DB. I'm a quick learner and
          collabrate closely with clients to create efficient, scalable, and user-friendly solutions that solve 
          real-world problems.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-20">
         {services.map((service,index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

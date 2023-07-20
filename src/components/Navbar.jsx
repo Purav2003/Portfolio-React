@@ -17,7 +17,7 @@ const Navbar = () => {
         }
         }><img src={logo} alt='logo' className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold flex">
-            Purav &nbsp; <span className="sm:block hidden"> |&nbsp; MERN Stack Developer</span>
+            Purav &nbsp; <span className="sm:block hidden"> |&nbsp; Full-Stack Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
