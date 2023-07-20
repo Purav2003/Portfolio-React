@@ -96,7 +96,7 @@ const Contact = () => {
         variants={slideIn('right', 'tween', 0, 0.7)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <EarthCanvas />
+        ?<EarthCanvas />:"Byyyyyyyy"
 
       </motion.div>
     </div>
