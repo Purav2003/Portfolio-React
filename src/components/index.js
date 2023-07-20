@@ -6,6 +6,7 @@ import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
+import Certificates from './Certificates';
 export {
   Hero,
   Navbar,
@@ -16,5 +17,6 @@ export {
   Contact,
   EarthCanvas, 
   ComputersCanvas, 
+  Certificates,
   StarsCanvas
 }

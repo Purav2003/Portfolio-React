@@ -27,6 +27,9 @@ import {
   project_4,
   project_5,
   project_6,
+  pythoncerti,
+  sqlcerti,
+  bigdata101certi
 } from "../assets";
 
 export const navLinks = [
@@ -152,6 +155,7 @@ const experiences = [
 ];
 
 
+
 const projects = [
   {
     name: "Netlfix Clone",
@@ -259,4 +263,20 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const certificate=[
+  {
+    name: "Python Essentials",   
+    image: pythoncerti,
+  },
+  {
+    name: "Introduction to Relational Databases in SQL",   
+    image: sqlcerti,
+  },
+  {
+    name: "Big Data 101",   
+    image: bigdata101certi,
+  }
+
+]
+
+export { services, technologies, experiences, projects,certificate };

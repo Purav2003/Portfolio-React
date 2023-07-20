@@ -313,3 +313,16 @@ input:hover,textarea:hover,.form:hover,label:hover{
 *{
   cursor: none !important;
 }
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+::-webkit-scrollbar-thumb {
+  background: #fff; 
+  border-radius: 13px !important;
+  height: 150px !important;
+}
