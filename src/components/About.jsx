@@ -37,7 +37,7 @@ const About = () => {
       className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
         I'm a skilled software developer with experience in Frontend and Backend development. 
         In frontend development, I have expertise in CSS, Javascript and frameworks like React JS
-        ,Three.js,Tailwind CSS. In backend development, I have expertise in django, nodeJs with knowledge of mySQL and MONOGO-DB. I'm a quick learner and
+        ,Three.js,Tailwind CSS. In backend development, I have expertise in django, nodeJs with knowledge of mySQL and MONGO-DB. I'm a quick learner and
          collabrate closely with clients to create efficient, scalable, and user-friendly solutions that solve 
          real-world problems.
       </motion.p>
