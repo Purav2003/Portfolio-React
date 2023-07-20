@@ -44,15 +44,6 @@ const Contact = () => {
       })
 
   }
-
-  function download(url) {
-    const a = document.createElement('a')
-    a.href = url
-    a.download = url.split('/').pop()
-    document.body.appendChild(a)
-    a.click()
-    document.body.removeChild(a)
-  }
   return (
     <div className="form xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
 
