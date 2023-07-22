@@ -15,7 +15,7 @@ const Navbar = () => {
           setActive("");
           window.scrollTo(0, 0);
         }
-        }><img src={logo} alt='logo' className="w-9 h-9 rounded-full" />
+        }><img src={logo} alt='logo' className="w-11 h-11 rounded-full" />
           <p className="text-white text-[18px] font-bold flex">
             Purav &nbsp; <span className="sm:block hidden"> |&nbsp; Full-Stack Developer</span>
           </p>
