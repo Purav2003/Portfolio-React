@@ -1,5 +1,4 @@
 import logo from "./logo.jpeg";
-import logo1 from "./logo1.jpg"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -95,5 +94,4 @@ export {
   pythoncerti,
   sqlcerti,
   bigdata101certi,
-  logo1
 };
