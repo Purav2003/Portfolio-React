@@ -158,7 +158,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "Netlfix Clone",
+    name: "Netflix Clone",
     description:
       "ReactJS-based web application. Which includes functionalities like search, adding to a watchlist, movie/series descriptions, trailers, and similar content suggestions.",
     tags: [
