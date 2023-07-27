@@ -25,7 +25,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" style={{ aspectRatio: 3 / 2 }} />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
 
-            {name === "Calendly Clone" ? <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center ml-2">
+            {name === "Calendly Clone" || name ==="Netflix Clone" ? <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center ml-2">
               <img src={link} alt='github' className="w-1/2 h-1/2 object-contain" />
             </div> :
               <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center">

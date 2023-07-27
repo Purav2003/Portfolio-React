@@ -172,7 +172,7 @@ const projects = [
       },
     ],
     image: project_1,
-    source_code_link: "https://github.com/Purav2003/Netflix-clone-react",
+    source_code_link: "https://netflix-clone-react-drab.vercel.app/",
   },
   {
     name: "Stock Exchange",
