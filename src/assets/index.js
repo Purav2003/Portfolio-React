@@ -19,6 +19,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import next from "./tech/next.png";
 import data from "./data.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -28,13 +29,13 @@ import webmavens from "./company/webmavens.jpeg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import bootstrap from "./tech/bootstrap.jpg"
+import bootstrap from "./tech/bootstrap.png"
 import python from "./tech/python.png"
 import django from "./tech/django.png"
 import java from "./tech/java.png"
 import mysql from "./tech/mysql.png"
-import r from "./tech/r.jpeg"
-import linux from "./tech/linux.jpeg"
+import r from "./tech/r.png"
+import linux from "./tech/linux.png"
 import link from "./link.png"
 import project_1 from "./project_1.png"
 import project_2 from "./project_2.png"
@@ -94,4 +95,5 @@ export {
   pythoncerti,
   sqlcerti,
   bigdata101certi,
+  next
 };

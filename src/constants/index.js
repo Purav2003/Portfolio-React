@@ -29,7 +29,8 @@ import {
   project_6,
   pythoncerti,
   sqlcerti,
-  bigdata101certi
+  bigdata101certi,
+  next
 } from "../assets";
 
 export const navLinks = [
@@ -85,7 +86,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-
+  {
+    name: "Next JS",
+    icon: next,
+  },
   {
     name: "mongodb",
     icon: mongodb,
