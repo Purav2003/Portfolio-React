@@ -81,7 +81,7 @@ const Works = () => {
         ))}
       </div>
       <br></br><br></br><div className="flex justify-end">
-  <a className='p-4 rounded-2xl font-bold shadow-xl px-8 bg-tertiary' href='https://github.com/Purav2003?tab=repositories'>+ View More</a>
+  <a className='p-4 rounded-2xl font-bold shadow-xl px-8 bg-tertiary' target='_blank' href='https://github.com/Purav2003?tab=repositories'>+ View More</a>
 </div>
 
     </div>
