@@ -1,3 +1,4 @@
+import { m } from "framer-motion";
 import {
   mobile,
   backend,
@@ -175,11 +176,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    user:1,
     image: project_1,
     source_code_link: "https://netflix-clone-react-drab.vercel.app/",
   },
   {
-    name: "Stock Exchange",
+    name: "Trading Analysis",
     description:
       "The project is a web application with live search, add to list, and stock description features made with ReactJS.",
     tags: [
@@ -194,6 +196,7 @@ const projects = [
 
     ],
     image: project_2,
+    user:1,
     source_code_link: "https://github.com/Purav2003/StockExchange-React",
   },
   {
@@ -211,6 +214,18 @@ const projects = [
       },
     ],
     image: project_3,
+    user:2,
+    data_user:[
+      {
+        name:"Purav Shah",
+        role:"Frontend Developer"
+      },
+      {
+        name:"Meet Prajapati",
+        role:"Backend Developer"
+      }
+      
+    ],
     source_code_link: "https://calendly.webmavens.com/",
   },
   {
@@ -229,6 +244,18 @@ const projects = [
 
     ],
     image: project_4,
+    user:2,
+    data_user:[
+      {
+        name:"Purav Shah",
+        role:"Fullstack Developer"
+      },
+      {
+        name:"Jinay Shah",
+        role:"Backend Developer"
+      }
+      
+    ],
     source_code_link: "https://github.com/Purav2003/Online_Medical_Shop/",
   },
   {
@@ -246,6 +273,18 @@ const projects = [
       },
     ],
     image: project_5,
+    user:2,
+    data_user:[
+      {
+        name:"Purav Shah",
+        role:"Fullstack Developer"
+      },
+      {
+        name:"Jinay Shah",
+        role:"Backend Developer"
+      }
+      
+    ],
     source_code_link: "https://github.com/jinshah0322/Complaint-Management-System",
   },
   {
@@ -263,6 +302,19 @@ const projects = [
       },
     ],
     image: project_6,
+    user:2,
+    data_user:[
+      {
+        name:"Purav Shah",
+        role:"Python Developer"
+
+      },
+      {
+        name:"Jinay Shah",
+        role:"Python Developer"
+      }
+      
+    ],
     source_code_link: "https://github.com/jinshah0322/Heart-Failure-Prediction",
   },
 ];

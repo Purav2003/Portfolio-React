@@ -7,8 +7,9 @@ import { link } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import * as icon from 'react-icons/ai'
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link ,data_user,user}) => {
   return (
     <motion.div>
       <Tilt
@@ -39,10 +40,19 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-4 flex flex-wrap gap-2 items-center">
               {tags.map((tag)=>(
                 <p key={tag.name} className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
               ))}
+             
+             {user>1? <div className="items-center text-[15px]">
+        Team Members<br></br>
+        {data_user?.map((collaborator) => (
+          <span className="text-secondary">
+            {collaborator.name} ({collaborator.role})<br></br>
+          </span>
+        ))}
+      </div>:""}
         </div>
       </Tilt>
     </motion.div>
@@ -70,6 +80,10 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      <br></br><br></br><div className="flex justify-end">
+  <a className='p-4 rounded-2xl font-bold shadow-xl px-8 bg-tertiary' href='https://github.com/Purav2003?tab=repositories'>+ View More</a>
+</div>
+
     </div>
   )
 }
