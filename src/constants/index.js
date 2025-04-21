@@ -144,6 +144,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Backend Developer",
+    company_name: "Freelancer",
+    icon: shyftlabs,
+    iconBg: "#383E56",
+    date: "October 2024 - February 2025",
+    points: [
+      "Served as a backend developer on the SUNBOOSTER project, built backend services with FastAPI and engineered APIs for login authentication, charger connectivity, and energy rate retrieval for Austria and Germany with Celery.",
+      "Implemented scheduled charging via Celery, allowing users to plan charging sessions. Created APIs for profile updates, usage statistics, and graph generation.",
+      "Integrated Flower for monitoring background tasks and Celery execution.",
+      "Deployed backend server on AWS EC2 and structured application database on AWS RDS for reliability. Strengthened authentication security, refined API performance, and automated daily energy rate updates."
+    ],
+  },  
+  {
+    title: "SDE Intern",
+    company_name: "Shyftlabs",
+    icon: shyftlabs,
+    iconBg: "#383E56",
+    date: "January 2024 - August 2024",
+    points: [
+      "During my internship, I contributed to diverse projects that sharpened my skills in modern web technologies.",
+      "I contributed in a Product Inventory Management system using React, Redux, and CSS.",
+      "Contributed in a multi-portal platform for influencers and users, enhancing e-commerce functionality. I also played a key role in creating an ad platform in Next.js",
+      "Also created a image cropping tool using libraries which can crop image in predefined ratios. Additionally, I created landing page for a new product and optimized a dashboard page for mobile devices while integrating PWA features."
+    ],
+  },
+  {
     title: "Frontend Developer",
     company_name: "Web Mavens",
     icon: webmavens,
@@ -155,7 +181,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  }
 
 ];
 
