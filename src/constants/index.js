@@ -5,6 +5,7 @@ import {
   web,
   data,
   javascript,
+  fastapi,
   html,
   css,
   reactjs,
@@ -117,6 +118,11 @@ const technologies = [
   {
     name: "python",
     icon: python,
+  },
+
+  {
+    name: "fastapi",
+    icon: fastapi,
   },
 
   {
