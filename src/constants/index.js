@@ -14,6 +14,7 @@ import {
   git,
   figma,
   webmavens,
+  shyftlabs,
   threejs,
   bootstrap,
   python,
