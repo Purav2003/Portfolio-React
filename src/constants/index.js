@@ -15,6 +15,7 @@ import {
   figma,
   webmavens,
   shyftlabs,
+  freelancer,
   threejs,
   bootstrap,
   python,
@@ -147,7 +148,7 @@ const experiences = [
   {
     title: "Backend Developer",
     company_name: "Freelancer",
-    icon: shyftlabs,
+    icon: freelancer,
     iconBg: "#383E56",
     date: "October 2024 - February 2025",
     points: [
