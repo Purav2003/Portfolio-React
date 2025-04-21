@@ -33,6 +33,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import bootstrap from "./tech/bootstrap.png"
 import python from "./tech/python.png"
+import fastapi from "./tech/fastapi.png"
 import django from "./tech/django.png"
 import java from "./tech/java.png"
 import mysql from "./tech/mysql.png"
@@ -84,6 +85,7 @@ export {
   tripguide,
   bootstrap,
   python,
+  fastapi,
   django,
   java,
   mysql,
